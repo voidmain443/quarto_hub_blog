@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "voidmain443-blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
